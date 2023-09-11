@@ -14,7 +14,7 @@ main()
     scanf("%d",&DA);
     printf("enter TA\n");
     scanf("%d",&TA);
-    GS= salary+HRA+DA+TA;
+    GS= salary+(salary*HRA/100)+(salary*DA/100)+(salary*TA/100);
     printf(" GS =%d",GS);
     
 }
