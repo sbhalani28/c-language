@@ -81,6 +81,6 @@ main()
     }
 
 }
-while(c !=6);
+while(c !=0);
 }
 
